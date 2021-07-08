@@ -1,0 +1,235 @@
+ <html>
+ <head>
+
+<meta charset="utf-8">
+  <!--Aqui eu to organizando o tamanho dos meus elementos-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Aqui estamos baixando o css do bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!--Essa é a parte do ajax do bootstrap, que traz alguns recursos visuais-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--Aqui nós temos um arquivo JavaScript que faz a configuração dos itens-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!--E aqui nós temos um JavaScript específico para o bootstrap-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<!--cor bonita 010F0F -->
+<style>
+	body{background-color: 202122}
+	body{color: white;}
+
+	.container{ text-align:right;}
+	.jumbotron{color: black;}
+	.MattSeven{font-size: 5em}
+  .carousel-inner img {
+    width: 80%;;
+    height: 80%}
+
+
+  .menina{display: block;
+          margin: -160px;
+          margin-left: 180px;
+          margin-top: -337px;
+
+        }
+  .modal-body{
+    color:black;
+
+  }
+  .modal-footer{
+    color:black;
+  }
+  .modal-title{
+    color:black;
+  }
+
+  .dropdown-style{margin-top:-120px;}
+
+</style>
+
+ <body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">MattSeven</a>
+    </li>
+
+    <li class="nav-item">   	
+    	<a class="nav-link" href="https://animystic.com.br/editorial/noticias/top-light-novels-de-2018/" target="_blank">Light Novel</a>
+    </li>
+
+    <li class="nav-item">
+      <!--target="_blank" faz abrir o site em outra janela-->
+      <a class="nav-link" href="https://www.crunchyroll.com/pt-br" target="_blank">crunchyroll</a>
+    </li>
+
+          <li class="nav-item">
+      <a class="nav-link" href="shop.html" target="_blank">Loja</a>
+    </li>
+
+    </li>
+    <li class="nav-item">
+      <!--target="_blank" faz abrir o site em outra janela-->
+      <a class="nav-link" href="login.html" target="_blank">Login</a>
+     
+    </li>
+  </ul>
+</nav>
+
+<br>
+
+<!--Jumbotron-->
+<div class="container">
+  <div class="jumbotron">
+  	<div class="MattSeven">
+    MattSeven
+</div>
+    <p> <h3>O melhor acervo de animes você  encontra em apenas um lugar!</h3>
+
+    </div>   
+</div>
+
+
+<div class="menina">
+
+<img src="minasemf.jpg"  style="height: 305px">
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<center>
+
+ <h2>Torne-se Premium</h2>
+ <button type="button"  class="btn btn-primary">Clique Aqui!</button>
+</center>
+
+<div class="dropdown-style">
+<div>
+	<div class="container">
+  <h2>Categorias</h2>
+  <p>Procure aqui a sua categoria preferida</p>
+
+
+
+  <!--dropdown-->
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Clique aqui!
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://www.crunchyroll.com/pt-pt/my-hero-academia">Shounen</a>
+      <a class="dropdown-item" href="https://www.crunchyroll.com/pt-pt/darling-in-the-franxx">Romance</a>
+      <a class="dropdown-item" href="https://www.crunchyroll.com/pt-pt/food-wars-shokugeki-no-soma">escolar</a>
+      <!--criar outra pagina-->
+      <a class="dropdown-item" href="404.html">+18</a>
+    </div>
+
+  </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+
+<!--imagens-->
+<center>
+ <div class=" imagens">
+ 	<img src="naruto.jpg" style="width:200px">
+ 	<img src="boruto.jpg" style="width:200px">
+ 	<img src="blue exorcist.jpg" style="width:200px">
+ 	<img src="citrus.jpg" style="width:200px">
+ 	<img src="death note.jpg" style="width:200px">
+ 	<img src="demon slayer.jpg" style="width:200px">
+ 	<img src="dr stone.jpg" style="width:200px">
+ 	<img src="goblin slayer.jpg" style="width:200px">
+ 	<img src="haren.jpg" style="width:200px">
+ 	<img src="himouto.jpg" style="width:200px">
+ 	<img src="jujutsu kaisen.jpg" style="width:200px">
+ 	<img src="mahutsukai no yome.jpg" style="width:200px">
+ 	<img src="monster girl doctor.jpg"style="width:200px">
+ 	<img src="one piece.jpg" style="width:200px">
+ 	<img src="sla.jpg" style="width:200px">
+ 	<img src="naruto classic.jpg"style="width:200px">
+ 	<img src="sao.jpg" style="width:200px">
+ 	<img src="fairy tail.jpg"style="width:200px">
+ </div>
+</center>
+ </div>
+
+<br>
+<br>
+
+<!--carousel-->
+<center>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+     <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="carousel one piece.jpg" alt="One Piece">
+      <div class="carousel-caption">
+        <h3>One Piece</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="carousel pokemon.jpg" alt="Pokemon">
+      <div class="carousel-caption">
+        <h3>Pokemon</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="carousel tokyi ghol.jpg" alt="Tokyo Ghol">
+      <div class="carousel-caption">
+        <h3>Tokyo Ghol</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="carousel SAO.jpg" alt="Sword Art Online">
+      <div class="carousel-caption">
+        <h3>Sword Art Online</h3>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+</center>
+<br>
+<br>
+
+
+ 
+
+  </body>
+ </html>
